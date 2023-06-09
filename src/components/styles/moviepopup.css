@@ -1,0 +1,23 @@
+.Popmain {
+ margin-top: -50px;
+ position: absolute;
+ width: 98vw;
+ height: 99vh;
+ border-radius: 50px;
+ /* border: 5px black solid; */
+ padding-left: 30px;
+ padding-right: 40px;
+ padding-bottom: 60px;
+ padding-top: 5px;
+}
+
+.commentDIV {
+ width: auto;
+ height: 150px;
+ overflow-x: scroll;
+}
+
+.SidePop2 {
+ position: relative;
+ margin-left: 20px;
+}

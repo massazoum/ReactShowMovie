@@ -1,0 +1,66 @@
+.container {
+ margin-top: 20px;
+
+}
+
+.mainMovie {
+ padding-top: 10px;
+ background-color: rgb(0, 0, 0);
+}
+
+.btnDiv {
+ display: flex;
+ justify-content: space-around;
+}
+.card {
+ background: #00caff;
+ background: linear-gradient(91deg,#00caff 6%, #00fff7 20%);
+ background: -webkit-linear-gradient(91deg,#00caff 6%, #00fff7 20%);
+ background: -moz-linear-gradient(91deg,#00caff 6%, #00fff7 20%);
+}
+.bntMore {
+ height: 35px;
+ width: 93%;
+ border-radius: 50px;
+ background-color: #fff;
+ color: black;
+ border: red 1px solid ;
+}
+
+.bntMore:hover {
+ background-color:red;
+ color: #fff;
+ border: white 1px solid ;
+}
+
+.btnT {
+margin-bottom: 5px;
+width: 40px;
+height: 30px;
+background: none;
+border: none;
+}
+.likeLogo {
+ transition: 0.5s;
+}
+.btnT:hover .likeLogo {
+ width:120%;
+ height:120%
+}
+
+.commentDIV {
+ border: gray 2px solid ;
+border-radius: 5px;
+padding: 5px;
+background-color: rgb(32, 151, 181);
+color: #fff;
+}
+
+.linecomment {
+ display: flex;
+ height: 5px;
+ background: #ff0000;
+ background: linear-gradient(90deg,#ff0000 0%, #00ff00 80%);
+ background: -webkit-linear-gradient(90deg,#ff0000 0%, #00ff00 80%);
+ background: -moz-linear-gradient(90deg,#ff0000 0%, #00ff00 80%);
+}
