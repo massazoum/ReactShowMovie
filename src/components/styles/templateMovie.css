@@ -52,8 +52,8 @@
 }
 
 .commentDIV {
-  border: gray 2px solid;
-  border-radius: 5px;
+  border: tomato 1px solid;
+  border-radius: 10px;
   padding: 5px;
   background-color: rgb(32, 151, 181);
   color: #fff;
@@ -63,4 +63,16 @@
   display: flex;
   height: 5px;
   background: #fff;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none;
 }

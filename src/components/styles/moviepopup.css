@@ -4,7 +4,10 @@
   height: auto;
   border-radius: 50px;
   color: #fff;
-  background-color: coral;
+  background: #f00;
+  background: linear-gradient(90deg, #f00 0%, #00caff 80%);
+  background: -webkit-linear-gradient(90deg, #f00 0%, #00caff 80%);
+  background: -moz-linear-gradient(90deg, #f00 0%, #00caff 80%);
 
   /* border: 5px black solid; */
   padding-left: 30px;
@@ -21,6 +24,10 @@
   width: auto;
   height: 150px;
   overflow-x: scroll;
+  background: #00acff;
+  background: linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
+  background: -webkit-linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
+  background: -moz-linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
 }
 
 .SidePop2 {
