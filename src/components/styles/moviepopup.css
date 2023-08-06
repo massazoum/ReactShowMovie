@@ -2,7 +2,6 @@
   position: relative;
   width: 98vw;
   height: auto;
-  border-radius: 50px;
   color: #fff;
   background: #f00;
   background: linear-gradient(90deg, #f00 0%, #00caff 80%);
@@ -39,6 +38,12 @@
   display: none;
 }
 
+.ClosseBtn {
+  display: block;
+  background-color: coral;
+  border-radius: 30px;
+}
+
 @media (max-width: 780px) {
   .ClosseBtn {
     display: none;
@@ -47,5 +52,6 @@
   .ClosseBtn1 {
     display: block;
     background-color: coral;
+    border-radius: 30px;
   }
 }
