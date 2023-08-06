@@ -1,0 +1,57 @@
+.Popmain {
+  position: relative;
+  width: 98vw;
+  height: auto;
+  color: #fff;
+  background: #f00;
+  background: linear-gradient(90deg, #f00 0%, #00caff 80%);
+  background: -webkit-linear-gradient(90deg, #f00 0%, #00caff 80%);
+  background: -moz-linear-gradient(90deg, #f00 0%, #00caff 80%);
+
+  /* border: 5px black solid; */
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-top: 5px;
+}
+
+.Popmain1 {
+  background-color: black;
+}
+
+.commentDIV {
+  width: auto;
+  height: 150px;
+  overflow-x: scroll;
+  background: #00acff;
+  background: linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
+  background: -webkit-linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
+  background: -moz-linear-gradient(90deg, #00acff 0%, #1c1d1b 80%);
+}
+
+.SidePop2 {
+  position: relative;
+  margin-left: 20px;
+}
+
+.ClosseBtn1 {
+  display: none;
+}
+
+.ClosseBtn {
+  display: block;
+  background-color: coral;
+  border-radius: 30px;
+}
+
+@media (max-width: 780px) {
+  .ClosseBtn {
+    display: none;
+  }
+
+  .ClosseBtn1 {
+    display: block;
+    background-color: coral;
+    border-radius: 30px;
+  }
+}
